@@ -8,13 +8,12 @@ export default defineConfig({
 	base: '/opensearch-agentops-website/docs',
 	integrations: [
 		starlight({
-			title: 'Getting Started with OpenSearch - Observability Stack',
+			title: 'OpenSearch - Observability Stack',
 			logo: {
 				src: './src/assets/opensearch-logo-darkmode.svg',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/anirudha/opensearch-agentops-website' }],
 			components: {
-				// Override the default Header component
 				Header: './src/components/CustomHeader.astro',
 			},
 			sidebar: [
@@ -23,40 +22,56 @@ export default defineConfig({
 					autogenerate: { directory: 'get-started' },
 				},
 				{
-					label: '🔧 Instrument',
-					autogenerate: { directory: 'instrument' },
+					label: '📡 Send Data',
+					autogenerate: { directory: 'send-data' },
 				},
 				{
-					label: '👁️ Observe',
-					autogenerate: { directory: 'observe' },
+					label: '🔍 Investigate',
+					autogenerate: { directory: 'investigate' },
 				},
 				{
-					label: '🏷️ Annotate',
-					autogenerate: { directory: 'annotate' },
+					label: '🗺️ Service Map & APM',
+					autogenerate: { directory: 'apm' },
 				},
 				{
-					label: '📊 Evaluate',
-					autogenerate: { directory: 'evaluate' },
+					label: '📊 Dashboards & Visualize',
+					autogenerate: { directory: 'dashboards' },
 				},
 				{
-					label: '📝 Prompts',
-					autogenerate: { directory: 'prompts' },
+					label: '🔔 Alerts & Notifications',
+					autogenerate: { directory: 'alerts' },
 				},
 				{
-					label: '🚀 Deploy',
-					autogenerate: { directory: 'deploy' },
+					label: '🎯 SLOs & SLIs',
+					autogenerate: { directory: 'slos' },
+				},
+				{
+					label: '📋 Logs',
+					autogenerate: { directory: 'logs' },
+				},
+				{
+					label: '📈 Metrics',
+					autogenerate: { directory: 'metrics' },
+				},
+				{
+					label: '🔗 Traces',
+					autogenerate: { directory: 'traces' },
+				},
+				{
+					label: '🤖 AI Observability',
+					autogenerate: { directory: 'ai-observability' },
 				},
 				{
 					label: '🔌 Integrations',
 					autogenerate: { directory: 'integrations' },
 				},
 				{
-					label: '📦 SDKs',
+					label: '📦 SDKs & API',
 					autogenerate: { directory: 'sdks' },
 				},
 				{
-					label: '🔐 Platform & Administration',
-					autogenerate: { directory: 'platform' },
+					label: '⚙️ Configure',
+					autogenerate: { directory: 'configure' },
 				},
 			],
 		}),

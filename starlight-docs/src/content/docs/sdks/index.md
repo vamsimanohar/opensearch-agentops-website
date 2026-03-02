@@ -1,17 +1,12 @@
 ---
-title: Overview
-description: Learn about Overview in OpenSearch AgentOps
+title: "SDKs & API"
+description: "Client libraries and API reference"
 ---
 
-# Overview
+# SDKs & API
 
 This page is under construction. Content coming soon.
 
 ## Overview
 
-Documentation for Overview will be added here.
-
-## Related Links
-
-- [View Full Documentation](/opensearch-agentops-website/docs/)
-- [GitHub Repository](https://github.com/anirudha/opensearch-agentops-website)
+Documentation for SDKs & API will be added here.

@@ -1,17 +1,12 @@
 ---
-title: JavaScript/TypeScript SDK
-description: Learn about JavaScript/TypeScript SDK in OpenSearch AgentOps
+title: "JavaScript SDK"
+description: "JavaScript/Node.js client library"
 ---
 
-# JavaScript/TypeScript SDK
+# JavaScript SDK
 
 This page is under construction. Content coming soon.
 
 ## Overview
 
-Documentation for JavaScript/TypeScript SDK will be added here.
-
-## Related Links
-
-- [View Full Documentation](/opensearch-agentops-website/docs/)
-- [GitHub Repository](https://github.com/anirudha/opensearch-agentops-website)
+Documentation for JavaScript SDK will be added here.

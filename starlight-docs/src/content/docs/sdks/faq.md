@@ -1,17 +1,12 @@
 ---
-title: Troubleshooting & FAQ
-description: Learn about Troubleshooting & FAQ in OpenSearch AgentOps
+title: "FAQ"
+description: "Frequently asked questions about SDKs and API"
 ---
 
-# Troubleshooting & FAQ
+# FAQ
 
 This page is under construction. Content coming soon.
 
 ## Overview
 
-Documentation for Troubleshooting & FAQ will be added here.
-
-## Related Links
-
-- [View Full Documentation](/opensearch-agentops-website/docs/)
-- [GitHub Repository](https://github.com/anirudha/opensearch-agentops-website)
+Documentation for FAQ will be added here.
